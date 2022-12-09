@@ -5,6 +5,6 @@ do
 done
 for i in {0..20}
 do
-	curl -Z $temp
+	curl -Z $temp &
         sleep 3
 done
